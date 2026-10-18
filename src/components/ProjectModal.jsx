@@ -16,8 +16,14 @@ export default function ProjectModal({ project, onClose }) {
         {project.architecture && (<><h3 style={{ marginTop: 20 }}>Arsitektur</h3><p>{project.architecture}</p></>)}
         {project.features && (<><h3 style={{ marginTop: 20 }}>Fitur</h3><ul style={{ paddingLeft: 20, color: '#475569' }}>{project.features.map((f, i) => (<li key={i} style={{ marginBottom: 6 }}>{f}</li>))}</ul></>)}
         <div style={{ marginTop: 16 }}>{project.techStack.map((t) => (<span key={t} className="tag">{t}</span>))}</div>
-        {project.images && project.images.length > 0 && (<div className="project-images">{project.images.map((src) => (<img key={src} src={src} alt={project.title} />))}</div>)}
-        {project.id === 'packet-tracer-office' && (<p style={{ marginTop: 12, fontSize: 14 }}>Screenshot topologi Cisco Packet Tracer akan ditambahkan nanti.</p>)}
+        {project.images && project.images.length > 0 && ((project.id === 'cleanvid' || project.id === 'wheelchair-app') ? (
+          <div className={"project-images" + (project.id === 'cleanvid' ? ' project-images-sm' : '')}>
+            {project.images.map((src) => (<img key={src} src={src} alt={project.title} />))}
+          </div>
+        ) : (
+          <div>{project.images.map((src) => (<img key={src} src={src} alt={project.title} />))}</div>
+        ))}
+
         {project.githubUrl && (<p style={{ marginTop: 16 }}><a href={project.githubUrl} target="_blank" rel="noreferrer" style={{ fontWeight: 600 }}>Lihat di GitHub →</a></p>)}
       </div>
     </div>

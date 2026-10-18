@@ -40,6 +40,7 @@ label { font-size: 14px; font-weight: 600; display: block; margin-bottom: 6px; }
 .modal img { max-width: 100%; display: block; margin: 12px 0; border: 1px solid var(--border); }
 @media (max-width: 640px) { h1 { font-size: 36px; } .section { padding: 40px 0; } }
 
-.project-images { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px; }
+.project-images { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin-top: 16px; align-items: start; }
 .project-images img { margin: 0; width: 100%; }
+.project-images-sm img { max-width: 320px; margin-left: auto; margin-right: auto; }
 @media (max-width: 640px) { .project-images { grid-template-columns: 1fr; } }

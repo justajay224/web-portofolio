@@ -233,8 +233,7 @@ export const projects = [
     techStack: ["Cisco Packet Tracer", "DHCP", "ACL", "WRT300N", "Jaringan Dasar"],
     githubUrl: null,
     liveDemoUrl: null,
-    // NOTE: Cisco / Packet Tracer screenshot will be added later. No image file in repo yet — do not invent an image path.
-    images: []
+    images: ["/images/packet-tracer-topologi.png"]
   },
   {
     id: "mikrotik-network",
@@ -289,7 +288,7 @@ export const projects = [
 export const skillCategories = [
   {
     category: "IT Support",
-    description: "Fokus utama: troubleshooting, Linux, dan jaringan dasar. Praktik mandiri dan latar SMK TKJ. Tanpa screenshot — keterampilan teks saja, bukan kartu proyek.",
+    description: "Kemampuan praktis dukungan teknis dan infrastruktur.",
     skills: [
       { name: "Troubleshooting Hardware & Software", tag: "PC, laptop, printer, IP conflict" },
       { name: "Linux Dasar (Ubuntu)", tag: "Instalasi, user, service dasar, konfigurasi server" },
@@ -353,5 +352,5 @@ export const certifications = [
   { name: "Dasar-Dasar Python", issuer: "BISA.AI", year: "2026" },
   { name: "Excel for Business", issuer: "Simplilearn", year: "2026" },
   { name: "Data Engineering Professional", issuer: "RapidMiner Academy", year: "2024" },
-  { name: "Menerapkan Rekayasa Prompt dengan Azure OpenAI Service", issuer: "Micro Skill · Digital Talent Scholarship 2025 · Komdigi", year: "2025" }
+  { name: "Azure OpenAI Service", issuer: "Micro Skill · Digital Talent Scholarship 2025 · Komdigi", year: "2025" }
 ];
