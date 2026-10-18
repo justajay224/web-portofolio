@@ -74,9 +74,9 @@ export const experiences = [
     project: "Proyek Pengembangan Aplikasi Penyewaan Kursi Roda",
     period: "Feb 2025 – Jun 2025",
     status: "Completed",
-    description: "Membangun total 134 API, mengembangkan API service backend, manajemen penyimpanan berkas, dan struktur data katalog inventaris sewa.",
+    description: "Membangun total 136 API, mengembangkan API service backend, manajemen penyimpanan berkas, dan struktur data katalog inventaris sewa.",
     contributions: [
-      "Membangun total 134 API untuk katalog inventaris, transaksi sewa, dan pengelolaan file object.",
+      "Membangun total 136 API untuk katalog inventaris, transaksi sewa, dan pengelolaan file object.",
       "Mengembangkan API service menggunakan FastAPI untuk mengelola file object dan dokumen digital.",
       "Merancang struktur katalog data inventaris serta spesifikasi path API.",
       "Membuat endpoint API menggunakan Express.js untuk transaksi dan katalog produk.",
@@ -196,12 +196,12 @@ export const projects = [
     year: "2025",
     isConfidential: true,
     confidentialNote: "Source code bersifat rahasia perusahaan (Enterprise NDA / Internal PT Gama Integra Informatika). Portofolio hanya menampilkan dokumentasi arsitektur teknis dan tangkapan layar yang diizinkan.",
-    shortDesc: "Membangun total 134 API. Mengembangkan API service FastAPI untuk mengelola file object, merancang struktur data katalog dan path API, serta membuat endpoint API Express.js.",
-    fullDesc: "Sistem aplikasi penyewaan kursi roda dan alat bantu medis yang menangani katalog inventaris, pengelolaan file dokumen penyewa dan bukti verifikasi, serta endpoint API pemesanan dan pelacakan status sewa. Total 134 API dibangun untuk katalog, transaksi, dan file object.",
+    shortDesc: "Membangun total 136 API. Mengembangkan API service FastAPI untuk mengelola file object, merancang struktur data katalog dan path API, serta membuat endpoint API Express.js.",
+    fullDesc: "Sistem aplikasi penyewaan kursi roda dan alat bantu medis yang menangani katalog inventaris, pengelolaan file dokumen penyewa dan bukti verifikasi, serta endpoint API pemesanan dan pelacakan status sewa. Total 136 API dibangun untuk katalog, transaksi, dan file object.",
     problemSolved: "Otomasi pencatatan inventaris alat medis dan pengelolaan dokumen fisik penyewa menjadi file digital yang aman dan cepat diakses.",
     architecture: "Backend terstruktur dengan FastAPI untuk pengelolaan berkas dokumen digital, dan Express.js untuk endpoint transaksi katalog sewa pada MySQL.",
     features: [
-      "Membangun total 134 API untuk katalog, transaksi sewa, dan file object",
+      "Membangun total 136 API untuk katalog, transaksi sewa, dan file object",
       "API service FastAPI untuk mengelola file object",
       "Perancangan struktur data katalog inventaris kursi roda dan path API",
       "Endpoint API Express.js untuk katalog dan transaksi sewa"
