@@ -1,10 +1,12 @@
 import React from 'react';
 import { personalInfo } from '../data/portfolioData';
+import DotBackground from './DotBackground';
 
 export default function Hero() {
   return (
-    <section style={{ padding: '120px 0 56px' }}>
-      <div className="container">
+    <section style={{ padding: '120px 0 56px', position: 'relative', overflow: 'hidden' }}>
+      <DotBackground />
+      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <p className="mono" style={{ fontSize: 12, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#64748b', marginBottom: 16 }}>
           {personalInfo.title} — {personalInfo.location}
         </p>
