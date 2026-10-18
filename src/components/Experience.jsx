@@ -19,7 +19,6 @@ export default function Experience() {
             <div style={{ marginTop: 12 }}>{exp.techStack.map((t) => (<span key={t} className="tag">{t}</span>))}</div>
           </div>
         ))}
-        <p style={{ marginTop: 16, fontSize: 14 }}>Catatan: pengalaman magang di atas adalah pengembangan aplikasi. Klaim troubleshooting berlaku untuk latar SMK TKJ dan praktik mandiri, bukan untuk magang.</p>
       </div>
     </section>
   );

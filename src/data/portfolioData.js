@@ -321,7 +321,7 @@ export const skillCategories = [
   },
   {
     category: "Databases & Storage",
-    description: "Skema data, integritas relasional, dan file storage.",
+    description: "Skema data, relasional, dan file storage.",
     skills: [
       { name: "PostgreSQL", tag: "Relational DB" },
       { name: "MySQL", tag: "Relational DB" },
@@ -353,5 +353,5 @@ export const certifications = [
   { name: "Dasar-Dasar Python", issuer: "BISA.AI", year: "2026" },
   { name: "Excel for Business", issuer: "Simplilearn", year: "2026" },
   { name: "Data Engineering Professional", issuer: "RapidMiner Academy", year: "2024" },
-  { name: "Menerapkan Rekayasa Prompt dengan Azure OpenAI Service", issuer: "Micro Skill — Digital Talent Scholarship 2025 (Komdigi)", year: "2025" }
+  { name: "Menerapkan Rekayasa Prompt dengan Azure OpenAI Service", issuer: "Micro Skill · Digital Talent Scholarship 2025 · Komdigi", year: "2025" }
 ];
