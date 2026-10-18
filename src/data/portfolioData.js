@@ -56,7 +56,7 @@ export const experiences = [
     project: "Proyek Pengembangan Aplikasi Klinik Kecantikan",
     period: "Sep 2025 – Jan 2026",
     status: "Completed",
-    description: "Membangun total 144 API.",
+    description: "",
     contributions: [
       "Membangun total 144 API.",
       "Merancang arsitektur sistem, termasuk flowchart, katalog relasi data, serta standarisasi rancangan path API.",
@@ -74,7 +74,7 @@ export const experiences = [
     project: "Proyek Pengembangan Aplikasi Penyewaan Kursi Roda",
     period: "Feb 2025 – Jun 2025",
     status: "Completed",
-    description: "Membangun total 136 API.",
+    description: "",
     contributions: [
       "Membangun total 136 API.",
       "Mengembangkan API service menggunakan FastAPI untuk mengelola file object dan dokumen digital.",
@@ -169,8 +169,8 @@ export const projects = [
     year: "2025 – 2026",
     isConfidential: true,
     confidentialNote: "Source code bersifat rahasia perusahaan (Enterprise NDA / Internal PT Gama Integra Informatika). Portofolio hanya menampilkan dokumentasi arsitektur sistem, modul fitur, dan tangkapan layar yang telah disetujui.",
-    shortDesc: "Membangun total 144 API. Merancang arsitektur sistem, flowchart, katalog data, rancangan path API, API service FastAPI pengelolaan file object, service report visualisasi chart, dan service API modul dokter (appointment hingga resep) Express.js.",
-    fullDesc: "Platform medis terintegrasi untuk klinik kecantikan yang mencakup alur pelayanan pasien dari pendaftaran janji temu (appointment), konsultasi dokter, pencatatan resep digital, hingga penyimpanan file object rekam medis dan pelaporan berbasis chart. Total 144 API dibangun.",
+    shortDesc: "Merancang arsitektur sistem, flowchart, katalog data, rancangan path API, API service FastAPI pengelolaan file object, service report visualisasi chart, dan service API modul dokter (appointment hingga resep) Express.js.",
+    fullDesc: "Platform medis terintegrasi untuk klinik kecantikan yang mencakup alur pelayanan pasien dari pendaftaran janji temu (appointment), konsultasi dokter, pencatatan resep digital, hingga penyimpanan file object rekam medis dan pelaporan berbasis chart.",
     problemSolved: "Klinik membutuhkan pemrosesan berkas foto pasien dan dokumen medis berukuran besar yang cepat dan terisolasi tanpa memperlambat sistem pendaftaran dan jadwal dokter.",
     architecture: "FastAPI untuk pemrosesan file object dan reporting analitik, sedangkan Express.js menangani alur transaksi bisnis dokter dan janji temu pasien pada PostgreSQL.",
     features: [
@@ -196,8 +196,8 @@ export const projects = [
     year: "2025",
     isConfidential: true,
     confidentialNote: "Source code bersifat rahasia perusahaan (Enterprise NDA / Internal PT Gama Integra Informatika). Portofolio hanya menampilkan dokumentasi arsitektur teknis dan tangkapan layar yang diizinkan.",
-    shortDesc: "Membangun total 136 API. Mengembangkan API service FastAPI untuk mengelola file object, merancang struktur data katalog dan path API, serta membuat endpoint API Express.js.",
-    fullDesc: "Sistem aplikasi penyewaan kursi roda dan alat bantu medis yang menangani katalog inventaris, pengelolaan file dokumen penyewa dan bukti verifikasi, serta endpoint API pemesanan dan pelacakan status sewa. Total 136 API dibangun.",
+    shortDesc: "Mengembangkan API service FastAPI untuk mengelola file object, merancang struktur data katalog dan path API, serta membuat endpoint API Express.js.",
+    fullDesc: "Sistem aplikasi penyewaan kursi roda dan alat bantu medis yang menangani katalog inventaris, pengelolaan file dokumen penyewa dan bukti verifikasi, serta endpoint API pemesanan dan pelacakan status sewa.",
     problemSolved: "Otomasi pencatatan inventaris alat medis dan pengelolaan dokumen fisik penyewa menjadi file digital yang aman dan cepat diakses.",
     architecture: "Backend terstruktur dengan FastAPI untuk pengelolaan berkas dokumen digital, dan Express.js untuk endpoint transaksi katalog sewa pada MySQL.",
     features: [

@@ -12,7 +12,7 @@ export default function Experience() {
             <p className="project-meta">{exp.period} · {exp.location} · {exp.status}</p>
             <h3>{exp.role}</h3>
             <p><strong style={{ color: '#0f172a' }}>{exp.company}</strong> — {exp.project}</p>
-            <p style={{ marginTop: 8 }}>{exp.description}</p>
+            {exp.description ? <p style={{ marginTop: 8 }}>{exp.description}</p> : null}
             <ul style={{ marginTop: 12, paddingLeft: 20, color: '#475569' }}>
               {exp.contributions.map((c, i) => (<li key={i} style={{ marginBottom: 6 }}>{c}</li>))}
             </ul>
