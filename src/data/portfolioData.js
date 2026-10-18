@@ -36,8 +36,8 @@ export const personalInfo = {
       period: "Lulus 2022",
       gpa: null,
       maxGpa: null,
-      status: "Lulus — Sangat Kompeten, nilai 99",
-      detail: "Uji Kompetensi Keahlian: Sistem Komputer 99, Komputer dan Jaringan Dasar 99, Administrasi Infrastruktur Jaringan 99."
+      status: "Lulus",
+      detail: "Nilai ijazah: 85.83."
     }
   ],
   socials: {
@@ -56,9 +56,9 @@ export const experiences = [
     project: "Proyek Pengembangan Aplikasi Klinik Kecantikan",
     period: "Sep 2025 – Jan 2026",
     status: "Completed",
-    description: "Membangun 144 API, merancang arsitektur sistem dan membangun layanan backend untuk modul medis dan visualisasi analitik.",
+    description: "Membangun total 144 API, merancang arsitektur sistem dan membangun layanan backend untuk modul medis dan visualisasi analitik.",
     contributions: [
-      "Membangun 144 API untuk modul medis, manajemen file object, dan visualisasi analitik.",
+      "Membangun total 144 API untuk modul medis, manajemen file object, dan visualisasi analitik.",
       "Merancang arsitektur sistem, termasuk flowchart, katalog relasi data, serta standarisasi rancangan path API.",
       "Mengembangkan API service menggunakan FastAPI untuk manajemen file object dan service report untuk mengolah data laporan menjadi visualisasi chart analitik.",
       "Membangun service API untuk modul dokter mulai dari alur appointment pasien, konsultasi, hingga resep digital menggunakan Express.js.",
@@ -74,11 +74,11 @@ export const experiences = [
     project: "Proyek Pengembangan Aplikasi Penyewaan Kursi Roda",
     period: "Feb 2025 – Jun 2025",
     status: "Completed",
-    description: "Membangun 136 API, mengembangkan API service backend, manajemen penyimpanan berkas, dan struktur data katalog inventaris sewa.",
+    description: "Membangun total 134 API, mengembangkan API service backend, manajemen penyimpanan berkas, dan struktur data katalog inventaris sewa.",
     contributions: [
-      "Membangun 136 API untuk katalog inventaris, transaksi sewa, dan pengelolaan file object.",
+      "Membangun total 134 API untuk katalog inventaris, transaksi sewa, dan pengelolaan file object.",
       "Mengembangkan API service menggunakan FastAPI untuk mengelola file object dan dokumen digital.",
-      "Merancang struktur katalog data inventaris serta spesifikasi path API terstandarisasi.",
+      "Merancang struktur katalog data inventaris serta spesifikasi path API.",
       "Membuat endpoint API menggunakan Express.js untuk transaksi dan katalog produk.",
       "Bekerja sama dalam tim pengembang dan menuntaskan semua target sprint sebelum batas tenggat waktu."
     ],
@@ -93,7 +93,7 @@ export const projects = [
     title: "Cek Review — Analisis Keluhan E-Commerce Berbasis AI",
     categoryLabel: "Proyek Mandiri",
     badge: "AI & Fullstack (Gemini AI)",
-    year: "2025",
+    year: "2026",
     isConfidential: false,
     shortDesc: "Aplikasi analitik web terintegrasi Gemini AI untuk ekstraksi keluhan pelanggan Tokopedia, pengelompokan masalah berbasis AI, peringatan tingkat risiko, dan ekspor ke CSV.",
     fullDesc: "Aplikasi analitik berbasis web yang mengotomasi pemrosesan ulasan pembeli e-commerce Tokopedia. Dengan Google Gemini AI, sistem mengelompokkan masalah ke dalam kategori relevan (kualitas produk, kurir pengiriman, lambatnya respons layanan), menghitung skor risiko, serta mendukung ekspor data terstruktur ke CSV.",
@@ -169,12 +169,12 @@ export const projects = [
     year: "2025 – 2026",
     isConfidential: true,
     confidentialNote: "Source code bersifat rahasia perusahaan (Enterprise NDA / Internal PT Gama Integra Informatika). Portofolio hanya menampilkan dokumentasi arsitektur sistem, modul fitur, dan tangkapan layar yang telah disetujui.",
-    shortDesc: "Membangun 144 API. Merancang arsitektur sistem, flowchart, katalog data, rancangan path API, API service FastAPI pengelolaan file object, service report visualisasi chart, dan service API modul dokter (appointment hingga resep) Express.js.",
+    shortDesc: "Membangun total 144 API. Merancang arsitektur sistem, flowchart, katalog data, rancangan path API, API service FastAPI pengelolaan file object, service report visualisasi chart, dan service API modul dokter (appointment hingga resep) Express.js.",
     fullDesc: "Platform medis terintegrasi untuk klinik kecantikan yang mencakup alur pelayanan pasien dari pendaftaran janji temu (appointment), konsultasi dokter, pencatatan resep digital, hingga penyimpanan file object rekam medis dan pelaporan berbasis chart. Total 144 API dibangun untuk modul medis, file object, dan analitik.",
     problemSolved: "Klinik membutuhkan pemrosesan berkas foto pasien dan dokumen medis berukuran besar yang cepat dan terisolasi tanpa memperlambat sistem pendaftaran dan jadwal dokter.",
     architecture: "FastAPI untuk pemrosesan file object dan reporting analitik, sedangkan Express.js menangani alur transaksi bisnis dokter dan janji temu pasien pada PostgreSQL.",
     features: [
-      "Membangun 144 API untuk modul medis, file object, dan analitik",
+      "Membangun total 144 API untuk modul medis, file object, dan analitik",
       "Perancangan arsitektur sistem, flowchart, dan katalog data terstruktur",
       "Rancangan spesifikasi dan standarisasi path API",
       "API service FastAPI untuk manajemen file object",
@@ -196,12 +196,12 @@ export const projects = [
     year: "2025",
     isConfidential: true,
     confidentialNote: "Source code bersifat rahasia perusahaan (Enterprise NDA / Internal PT Gama Integra Informatika). Portofolio hanya menampilkan dokumentasi arsitektur teknis dan tangkapan layar yang diizinkan.",
-    shortDesc: "Membangun 136 API. Mengembangkan API service FastAPI untuk mengelola file object, merancang struktur data katalog dan path API, serta membuat endpoint API Express.js.",
-    fullDesc: "Sistem aplikasi penyewaan kursi roda dan alat bantu medis yang menangani katalog inventaris, pengelolaan file dokumen penyewa dan bukti verifikasi, serta endpoint API pemesanan dan pelacakan status sewa. Total 136 API dibangun untuk katalog, transaksi, dan file object.",
+    shortDesc: "Membangun total 134 API. Mengembangkan API service FastAPI untuk mengelola file object, merancang struktur data katalog dan path API, serta membuat endpoint API Express.js.",
+    fullDesc: "Sistem aplikasi penyewaan kursi roda dan alat bantu medis yang menangani katalog inventaris, pengelolaan file dokumen penyewa dan bukti verifikasi, serta endpoint API pemesanan dan pelacakan status sewa. Total 134 API dibangun untuk katalog, transaksi, dan file object.",
     problemSolved: "Otomasi pencatatan inventaris alat medis dan pengelolaan dokumen fisik penyewa menjadi file digital yang aman dan cepat diakses.",
     architecture: "Backend terstruktur dengan FastAPI untuk pengelolaan berkas dokumen digital, dan Express.js untuk endpoint transaksi katalog sewa pada MySQL.",
     features: [
-      "Membangun 136 API untuk katalog, transaksi sewa, dan file object",
+      "Membangun total 134 API untuk katalog, transaksi sewa, dan file object",
       "API service FastAPI untuk mengelola file object",
       "Perancangan struktur data katalog inventaris kursi roda dan path API",
       "Endpoint API Express.js untuk katalog dan transaksi sewa"
@@ -242,7 +242,7 @@ export const projects = [
     title: "Konfigurasi Jaringan MikroTik",
     categoryLabel: "Proyek Mandiri — IT Support",
     badge: "MikroTik / RouterOS",
-    year: "2025",
+    year: "2026",
     isConfidential: false,
     shortDesc: "Konfigurasi dasar–menengah perangkat jaringan MikroTik meliputi pengaturan IP Address, DHCP, NAT, Firewall, Routing, VLAN, dan VPN, serta troubleshooting perangkat komputer, laptop, printer, dan koneksi jaringan.",
     fullDesc: "Praktik mandiri konfigurasi jaringan dengan perangkat MikroTik pada level dasar–menengah. Mencakup pengaturan IP Address, DHCP, NAT, Firewall, Routing, VLAN, dan VPN, serta troubleshooting perangkat komputer, laptop, printer, dan koneksi jaringan. Teks saja — tanpa screenshot.",
@@ -266,7 +266,7 @@ export const projects = [
     title: "Server Linux (Ubuntu)",
     categoryLabel: "Proyek Mandiri — IT Support",
     badge: "Linux / Ubuntu",
-    year: "2025",
+    year: "2026",
     isConfidential: false,
     shortDesc: "Server Ubuntu lokal di VirtualBox, diakses via Tailscale dengan SSH dibatasi ke IP tertentu, menggunakan PuTTY sebagai SSH client. Mencakup pengelolaan user, service dasar, dan akses remote yang aman.",
     fullDesc: "Server Ubuntu yang berjalan lokal di VirtualBox, diakses dari jarak jauh via Tailscale dengan SSH dibatasi ke IP tertentu, menggunakan PuTTY sebagai SSH client. Mencakup pengelolaan user, service dasar, dan akses remote yang aman. Server ini lokal / VirtualBox — bukan VPS / cloud — dan tidak dikelola oleh Hermes (pengelolaan via Hermes adalah rencana masa depan yang belum dilakukan). Teks saja — tanpa screenshot.",
@@ -347,11 +347,11 @@ export const certifications = [
   { name: "Cisco Dasar", issuer: "ID-Networkers", year: "2026" },
   { name: "Jaringan Dasar", issuer: "ID-Networkers", year: "2026" },
   { name: "Uji Kompetensi TKJ SMK", issuer: "SMK — Sangat Kompeten, nilai 99", year: "2022" },
-  { name: "Kali Linux Basics", issuer: "Simplilearn", year: "18 Sep 2026" },
-  { name: "Introduction to Data Analytics", issuer: "Simplilearn", year: "18 Sep 2026" },
-  { name: "SQL Intermediate", issuer: "HackerRank", year: "18 Jun 2023" },
-  { name: "Dasar-Dasar Python", issuer: "BISA.AI", year: "10 Okt 2026" },
+  { name: "Kali Linux Basics", issuer: "Simplilearn", year: "2026" },
+  { name: "Introduction to Data Analytics", issuer: "Simplilearn", year: "2026" },
+  { name: "SQL Intermediate", issuer: "HackerRank", year: "2023" },
+  { name: "Dasar-Dasar Python", issuer: "BISA.AI", year: "2026" },
   { name: "Excel for Business", issuer: "Simplilearn", year: "2026" },
   { name: "Data Engineering Professional", issuer: "RapidMiner Academy", year: "2024" },
-  { name: "Azure AI", issuer: "—", year: "—" }
+  { name: "Menerapkan Rekayasa Prompt dengan Azure OpenAI Service", issuer: "Micro Skill — Digital Talent Scholarship 2025 (Komdigi)", year: "2025" }
 ];
