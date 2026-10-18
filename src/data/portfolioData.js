@@ -235,6 +235,54 @@ export const projects = [
     liveDemoUrl: null,
     // NOTE: Cisco / Packet Tracer screenshot will be added later. No image file in repo yet — do not invent an image path.
     images: []
+  },
+  {
+    id: "mikrotik-network",
+    projectType: "personal",
+    title: "Konfigurasi Jaringan MikroTik",
+    categoryLabel: "Proyek Mandiri — IT Support",
+    badge: "MikroTik / RouterOS",
+    year: "2025",
+    isConfidential: false,
+    shortDesc: "Konfigurasi dasar–menengah perangkat jaringan MikroTik meliputi pengaturan IP Address, DHCP, NAT, Firewall, Routing, VLAN, dan VPN, serta troubleshooting perangkat komputer, laptop, printer, dan koneksi jaringan.",
+    fullDesc: "Praktik mandiri konfigurasi jaringan dengan perangkat MikroTik pada level dasar–menengah. Mencakup pengaturan IP Address, DHCP, NAT, Firewall, Routing, VLAN, dan VPN, serta troubleshooting perangkat komputer, laptop, printer, dan koneksi jaringan. Teks saja — tanpa screenshot.",
+    problemSolved: "Jaringan kecil perlu konfigurasi dasar yang benar — alamat IP, DHCP, NAT, dan firewall — agar perangkat dapat terhubung dengan aman, serta troubleshooting cepat saat komputer, printer, atau koneksi bermasalah.",
+    architecture: "Perangkat MikroTik (RouterOS) sebagai router utama. Konfigurasi dilakukan bertahap: IP Address, DHCP, NAT, Firewall, Routing, VLAN, dan VPN, lalu diuji dengan koneksi perangkat dan troubleshooting saat ada gangguan.",
+    features: [
+      "Pengaturan IP Address dan DHCP",
+      "Konfigurasi NAT dan Firewall dasar–menengah",
+      "Routing, VLAN, dan VPN",
+      "Troubleshooting komputer, laptop, printer, dan koneksi jaringan"
+    ],
+    techStack: ["MikroTik", "RouterOS", "DHCP", "NAT", "Firewall", "Routing", "VLAN", "VPN"],
+    githubUrl: null,
+    liveDemoUrl: null,
+    // NOTE: No screenshot for this project. Text only — do not invent an image path.
+    images: []
+  },
+  {
+    id: "linux-server-ubuntu",
+    projectType: "personal",
+    title: "Server Linux (Ubuntu)",
+    categoryLabel: "Proyek Mandiri — IT Support",
+    badge: "Linux / Ubuntu",
+    year: "2025",
+    isConfidential: false,
+    shortDesc: "Server Ubuntu lokal di VirtualBox, diakses via Tailscale dengan SSH dibatasi ke IP tertentu, menggunakan PuTTY sebagai SSH client. Mencakup pengelolaan user, service dasar, dan akses remote yang aman.",
+    fullDesc: "Server Ubuntu yang berjalan lokal di VirtualBox, diakses dari jarak jauh via Tailscale dengan SSH dibatasi ke IP tertentu, menggunakan PuTTY sebagai SSH client. Mencakup pengelolaan user, service dasar, dan akses remote yang aman. Server ini lokal / VirtualBox — bukan VPS / cloud — dan tidak dikelola oleh Hermes (pengelolaan via Hermes adalah rencana masa depan yang belum dilakukan). Teks saja — tanpa screenshot.",
+    problemSolved: "Perlu server lokal untuk belajar pengelolaan sistem: user, service, dan akses remote yang aman tanpa biaya VPS / cloud.",
+    architecture: "Ubuntu di VirtualBox lokal. Akses remote via Tailscale, SSH dibatasi ke IP tertentu, client menggunakan PuTTY. Pengelolaan mencakup user dan service dasar.",
+    features: [
+      "Server Ubuntu lokal di VirtualBox — bukan VPS / cloud",
+      "Akses remote via Tailscale, SSH dibatasi ke IP tertentu",
+      "SSH client menggunakan PuTTY",
+      "Pengelolaan user dan service dasar"
+    ],
+    techStack: ["Linux (Ubuntu)", "VirtualBox", "Tailscale", "SSH", "PuTTY"],
+    githubUrl: null,
+    liveDemoUrl: null,
+    // NOTE: No screenshot for this project. Text only — do not invent an image path.
+    images: []
   }
 ];
 

@@ -9,7 +9,7 @@ export default function Projects() {
       <div className="container">
         <p className="section-label">Proyek</p>
         <h2>Proyek terpilih</h2>
-        <p>Enam proyek: tiga mandiri, dua magang perusahaan (NDA), dan satu simulasi jaringan kantor.</p>
+        <p>Delapan proyek: enam mandiri (termasuk simulasi jaringan kantor, konfigurasi MikroTik, dan server Linux — ketiganya teks saja, tanpa screenshot) dan dua magang perusahaan (NDA).</p>
         <div style={{ marginTop: 8 }}>
           {projects.map((p) => (
             <article key={p.id} className="project-row">
