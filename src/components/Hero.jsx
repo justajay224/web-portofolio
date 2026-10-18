@@ -1,17 +1,15 @@
 import React from 'react';
 import { personalInfo } from '../data/portfolioData';
-import AsciiBackground from './AsciiBackground';
 
 export default function Hero() {
   return (
-    <section style={{ padding: '120px 0 56px', position: 'relative', overflow: 'hidden' }}>
-      <AsciiBackground />
-      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+    <section style={{ padding: '120px 0 56px' }}>
+      <div className="container">
         <p className="mono" style={{ fontSize: 12, letterSpacing: '0.12em', textTransform: 'uppercase', color: '#64748b', marginBottom: 16 }}>
           {personalInfo.title} — {personalInfo.location}
         </p>
         <h1>{personalInfo.name}</h1>
-        <p className="lead" style={{ marginTop: 16, maxWidth: 640 }}>{personalInfo.tagline} Fokus utama IT Support — troubleshooting hardware dan software, konfigurasi server Linux, dan jaringan MikroTik — dengan latar backend.</p>
+        <p className="lead" style={{ marginTop: 16, maxWidth: 640 }}>{personalInfo.tagline}</p>
         <div style={{ marginTop: 24, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <a href="#projects" className="btn btn-primary">Lihat Proyek</a>
           <a href={personalInfo.socials.linkedin} target="_blank" rel="noreferrer" className="btn">LinkedIn</a>
