@@ -1,112 +1,54 @@
-# 🚀 Ajay Maulana – Backend & Software Engineer Portfolio
+# Ajay Maulana – IT Support & Backend Developer Portfolio
 
-Website portofolio modern berestetika tinggi (*Cyber Dark Engineering Aesthetic*) yang dirancang khusus untuk menonjolkan profil **Ajay Maulana** sebagai Backend & Software Engineer, mencakup keahlian **FastAPI, Express.js, Laravel, React, Vue, Microservices**, serta integrasi **Google Gemini AI**.
+Website portofolio **Ajay Maulana** dengan gaya *Light Clean Professional* (referensi: Maximilian Kaspar via SiteInspire — kategori Portfolio + Minimal): background putih/off-white, teks navy, satu aksen biru tua. Tipografi Plus Jakarta Sans. Tanpa gradient, tanpa glassmorphism, tanpa glow — bersih dan tidak terlihat seperti template AI.
 
-Website ini dibangun menggunakan **React (Vite)** dan sudah dikonfigurasi 100% siap di-deploy secara instan ke **Vercel**.
-
----
-
-## ✨ Fitur & Keunggulan
-
-1. **Interactive REST API Terminal**:
-   - Simulator console API interaktif di Hero section. Pengunjung/recruiter dapat menguji endpoint `/api/v1/profile`, `/api/v1/skills`, `/api/v1/projects`, dan `/api/v1/hire-ajay` secara live dengan syntax highlighted JSON dan indikator latensi real-time.
-2. **Rekam Jejak Magang Industri**:
-   - Timeline interaktif pengalaman di **PT. Gama Integra Informatika** (Proyek Klinik Kecantikan & Kursi Roda).
-3. **Showcase Proyek Lengkap dengan Modal Detail**:
-   - **Cek Review** (Gemini AI + React + Node.js - Analisis Keluhan Tokopedia)
-   - **Fintrack** (Microservices Financial Tracker - Node.js + Express + Next.js)
-   - **CleanVid** (Android Kotlin - YouTube Spam Judi Online Guard)
-   - **Beauty Clinic Core API** (FastAPI, Express.js & PostgreSQL)
-   - Disertai modal popup arsitektur sistem, tantangan yang diselesaikan, dan tautan GitHub.
-4. **Matriks Keahlian Lengkap**:
-   - Backend: Python (FastAPI), Node.js, Express.js, PHP (Laravel), Kotlin.
-   - Frontend: React.js, Vue.js, Next.js, Modern CSS3 & HTML5.
-   - Database: PostgreSQL, MySQL, Relational Modeling, Object Storage.
-   - AI & DevOps: Google Gemini AI, Docker, Git, Postman, REST Architecture.
-5. **Pendidikan & Prestasi Akademik**:
-   - Sarjana Komputer (S1) Sistem Informasi, **Universitas Teknologi Yogyakarta (GPA 3.74 / 4.00)**.
-6. **Direct Connect**:
-   - Tombol cepat chat WhatsApp, salin email, dan interactive contact form.
+**Live:** https://web-portofolio-indol-five.vercel.app
 
 ---
 
-## 💻 Menjalankan di Komputer Lokal
+## Isi Website
 
-Pastikan Anda memiliki [Node.js](https://nodejs.org/) terinstal di komputer Anda.
-
-1. **Buka terminal** di folder proyek ini:
-   ```bash
-   cd d:\Projek\web_portofolio
-   ```
-
-2. **Jalankan local development server**:
-   ```bash
-   npm run dev
-   ```
-
-3. Buka browser dan akses alamat yang tertera (biasanya `http://localhost:5173`).
-
-4. **Uji Build Production**:
-   ```bash
-   npm run build
-   ```
-   Folder `dist/` akan otomatis terbuat tanpa error dalam hitungan milidetik.
+- **Hero** — nama besar + tagline satu kalimat, dengan animasi background titik-titik melayang halus (full-page, sebagian biru, ringan dan subtle).
+- **Tentang** — profil singkat: lulusan S1 Sistem Informasi UTY (IPK 3,74) dan SMK Teknik Komputer dan Jaringan; pengalaman magang backend + kemampuan IT support.
+- **Pengalaman** — 2x magang di PT Gama Integra Informatika sebagai Backend Developer merangkap System Analyst (aplikasi penyewaan kursi roda: 136 API; aplikasi klinik kecantikan: 144 API).
+- **Proyek yang pernah dibuat** — 8 proyek: 6 mandiri (Cek Review, Fintrack, CleanVid, Simulasi Jaringan Kantor dengan Cisco Packet Tracer + screenshot topologi, Konfigurasi Jaringan MikroTik, Server Linux Ubuntu) dan 2 proyek magang (NDA).
+- **Keahlian** — IT Support (troubleshooting hardware/software, Linux, jaringan MikroTik), Backend, Frontend, Database, AI/Tools.
+- **Sertifikasi** — 10 sertifikat (Cisco, jaringan dasar, UKK TKJ, Kali Linux, Data Analytics, SQL HackerRank, Python, Excel for Business, Data Engineering RapidMiner, Azure OpenAI Service Komdigi).
+- **Pendidikan** — S1 Sistem Informasi Universitas Teknologi Yogyakarta (2022–2026, IPK 3.74) dan SMK Teknik Komputer dan Jaringan (SMKN 2 Tamiang Layang, lulus 2022).
+- **Kontak** — tombol Email (mailto), WhatsApp, LinkedIn, GitHub. Nomor HP tidak ditampilkan sebagai teks.
 
 ---
 
-## ☁️ Panduan Deploy ke Vercel
+## Menjalankan di Komputer Lokal
 
-Website ini sudah dilengkapi file `vercel.json` sehingga proses deploy ke Vercel sangat mudah.
+Pastikan [Node.js](https://nodejs.org/) terinstal.
 
-### Cara 1: Deploy Otomatis via GitHub (Sangat Disarankan)
+```bash
+cd web-portofolio
+npm install
+npm run dev
+```
 
-1. Buat repositori baru di akun GitHub Anda (misal: `web-portofolio`).
-2. Di folder proyek lokal, inisialisasi git dan push ke GitHub:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: initial commit modern portfolio website"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME_ANDA/web-portofolio.git
-   git push -u origin main
-   ```
-3. Buka [vercel.com](https://vercel.com) dan login menggunakan akun GitHub Anda.
-4. Klik tombol **"Add New..."** > **"Project"**.
-5. Pilih repositori `web-portofolio` yang baru saja Anda push.
-6. Vercel akan secara otomatis mendeteksi framework **Vite** dan pengaturan build:
-   - **Framework Preset**: `Vite`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-7. Klik **"Deploy"**! Dalam 30 detik website portofolio Anda sudah online dengan domain `https://nama-proyek.vercel.app` (dan HTTPS gratis).
+Buka alamat yang tertera di terminal (biasanya `http://localhost:5173`).
+
+Uji build production:
+
+```bash
+npm run build
+```
 
 ---
 
-### Cara 2: Deploy Cepat via Vercel CLI
+## Deploy ke Vercel
 
-Jika Anda ingin deploy langsung dari terminal tanpa push ke GitHub terlebih dahulu:
-
-1. Instal Vercel CLI global:
-   ```bash
-   npm install -g vercel
-   ```
-2. Jalankan perintah:
-   ```bash
-   vercel
-   ```
-3. Ikuti panduan singkat di terminal (tekan Enter untuk opsi default).
-4. Untuk deploy ke production:
-   ```bash
-   vercel --prod
-   ```
+Repository ini sudah terhubung ke Vercel (file `vercel.json` tersedia) — setiap push/merge ke branch `main` otomatis ter-deploy ke production. Tidak perlu pengaturan tambahan.
 
 ---
 
-## 📝 Cara Mengubah Data Portofolio
+## Cara Mengubah Data Portofolio
 
-Seluruh data portofolio dirancang terpusat (*Single Source of Truth*). Anda cukup mengedit satu file:
-- **`src/data/portfolioData.js`**: Untuk mengubah info kontak, link GitHub/LinkedIn, deskripsi proyek, pengalaman kerja, atau menambah skill baru.
-- **`src/data/apiMockData.js`**: Untuk menambah atau mengubah respon simulasi terminal API.
+Seluruh data terpusat (*single source of truth*) di **`src/data/portfolioData.js`** — info kontak, link GitHub/LinkedIn, deskripsi proyek, pengalaman kerja, skill, sertifikasi, dan pendidikan. Ubah file itu saja, lalu commit.
 
 ---
 
-Dikembangkan dengan dedikasi untuk **Ajay Maulana** | Siap Mendunia bersama Vercel.
+Dibuat untuk **Ajay Maulana** — IT Support & Backend Developer, Jakarta.
