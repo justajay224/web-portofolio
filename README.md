@@ -19,26 +19,6 @@ Website portofolio **Ajay Maulana** dengan gaya *Light Clean Professional* (refe
 
 ---
 
-## Menjalankan di Komputer Lokal
-
-Pastikan [Node.js](https://nodejs.org/) terinstal.
-
-```bash
-cd web-portofolio
-npm install
-npm run dev
-```
-
-Buka alamat yang tertera di terminal (biasanya `http://localhost:5173`).
-
-Uji build production:
-
-```bash
-npm run build
-```
-
----
-
 ## Deploy ke Vercel
 
 Repository ini sudah terhubung ke Vercel (file `vercel.json` tersedia) — setiap push/merge ke branch `main` otomatis ter-deploy ke production. Tidak perlu pengaturan tambahan.
