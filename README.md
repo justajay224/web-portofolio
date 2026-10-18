@@ -19,10 +19,4 @@ Website portofolio **Ajay Maulana** dengan gaya *Light Clean Professional* (refe
 
 ---
 
-## Cara Mengubah Data Portofolio
-
-Seluruh data terpusat (*single source of truth*) di **`src/data/portfolioData.js`** — info kontak, link GitHub/LinkedIn, deskripsi proyek, pengalaman kerja, skill, sertifikasi, dan pendidikan. Ubah file itu saja, lalu commit.
-
----
-
 Dibuat untuk **Ajay Maulana** — IT Support & Backend Developer, Jakarta.
