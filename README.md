@@ -19,12 +19,6 @@ Website portofolio **Ajay Maulana** dengan gaya *Light Clean Professional* (refe
 
 ---
 
-## Deploy ke Vercel
-
-Repository ini sudah terhubung ke Vercel (file `vercel.json` tersedia) — setiap push/merge ke branch `main` otomatis ter-deploy ke production. Tidak perlu pengaturan tambahan.
-
----
-
 ## Cara Mengubah Data Portofolio
 
 Seluruh data terpusat (*single source of truth*) di **`src/data/portfolioData.js`** — info kontak, link GitHub/LinkedIn, deskripsi proyek, pengalaman kerja, skill, sertifikasi, dan pendidikan. Ubah file itu saja, lalu commit.
