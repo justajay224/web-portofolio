@@ -9,7 +9,7 @@ export default function Hero() {
           {personalInfo.title} — {personalInfo.location}
         </p>
         <h1>{personalInfo.name}</h1>
-        <p className="lead" style={{ marginTop: 16, maxWidth: 640 }}>{personalInfo.tagline} {personalInfo.bio}</p>
+        <p className="lead" style={{ marginTop: 16, maxWidth: 640 }}>{personalInfo.tagline} Fokus utama IT Support — troubleshooting hardware dan software, konfigurasi server Linux, dan jaringan MikroTik — dengan latar backend.</p>
         <div style={{ marginTop: 24, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <a href="#projects" className="btn btn-primary">Lihat Proyek</a>
           <a href={personalInfo.socials.linkedin} target="_blank" rel="noreferrer" className="btn">LinkedIn</a>
