@@ -345,6 +345,7 @@ export const skillCategories = [
 export const certifications = [
   { name: "Cisco Dasar", issuer: "ID-Networkers", year: "2026" },
   { name: "Jaringan Dasar", issuer: "ID-Networkers", year: "2026" },
+  { name: "Mikrotik Dasar", issuer: "ID-Networkers", year: "2026" },
   { name: "Uji Kompetensi TKJ SMK", issuer: "SMK — Sangat Kompeten, nilai 99", year: "2022" },
   { name: "Kali Linux Basics", issuer: "Simplilearn", year: "2026" },
   { name: "Introduction to Data Analytics", issuer: "Simplilearn", year: "2026" },
