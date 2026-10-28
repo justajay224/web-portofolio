@@ -292,7 +292,8 @@ export const skillCategories = [
     skills: [
       { name: "Troubleshooting Hardware & Software", tag: "PC, laptop, printer, IP conflict" },
       { name: "Linux Dasar (Ubuntu)", tag: "Instalasi, user, service dasar, konfigurasi server" },
-      { name: "Jaringan Dasar", tag: "Mikrotik — IP, DHCP, NAT, Firewall dasar" },
+      { name: "Jaringan Dasar", tag: "Mikrotik — IP, DHCP, NAT, Firewall, VPN" },
+      { name: "NAS & SAN", tag: "Samba (NAS), iSCSI (SAN), Ubuntu Server di VMware" },
       { name: "Dokumentasi", tag: "Laporan & dokumentasi teknis" }
     ]
   },
@@ -345,6 +346,7 @@ export const skillCategories = [
 export const certifications = [
   { name: "Cisco Dasar", issuer: "ID-Networkers", year: "2026" },
   { name: "Jaringan Dasar", issuer: "ID-Networkers", year: "2026" },
+  { name: "Mikrotik Dasar", issuer: "ID-Networkers", year: "2026" },
   { name: "Uji Kompetensi TKJ SMK", issuer: "SMK — Sangat Kompeten, nilai 99", year: "2022" },
   { name: "Kali Linux Basics", issuer: "Simplilearn", year: "2026" },
   { name: "Introduction to Data Analytics", issuer: "Simplilearn", year: "2026" },
