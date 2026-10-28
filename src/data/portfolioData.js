@@ -292,7 +292,7 @@ export const skillCategories = [
     skills: [
       { name: "Troubleshooting Hardware & Software", tag: "PC, laptop, printer, IP conflict" },
       { name: "Linux Dasar (Ubuntu)", tag: "Instalasi, user, service dasar, konfigurasi server" },
-      { name: "Jaringan Dasar", tag: "Mikrotik — IP, DHCP, NAT, Firewall dasar, VPN" },
+      { name: "Jaringan Dasar", tag: "Mikrotik — IP, DHCP, NAT, Firewall, VPN" },
       { name: "NAS & SAN", tag: "Samba (NAS), iSCSI (SAN), Ubuntu Server di VMware" },
       { name: "Dokumentasi", tag: "Laporan & dokumentasi teknis" }
     ]
